@@ -1,0 +1,11 @@
+tiguanInitNPC = {}
+--tiguanInitNPC[7] = "" -- Diêm Bang
+--tiguanInitNPC[28] = "" -- Bão Độc Trại
+--tiguanInitNPC[27] = "" -- Ác Hổ Sơn Trại
+--tiguanInitNPC[29] = "" -- Thiên Bảo Trại
+tiguanInitNPC[2] = {"TGnpc004", 841000128, 840001280} -- Thiên Hương Trà  Lâm
+tiguanInitNPC[3] = {"TGnpc007", 841000155, 840001550} -- Kim Châm Thẩm Gia
+tiguanInitNPC[4] = {"TGnpc012", 841000158, 840001580} -- Từ Gia Trang
+--tiguanInitNPC[30] = "" -- Hổ Tiếu Sơn Trang
+tiguanInitNPC[1] = {"TGnpc012", 841000158, 840001580} -- Cán Hoa Kiếm Phái
+--tiguanInitNPC[12] = "" -- Tung Sơn Kiếm Phái

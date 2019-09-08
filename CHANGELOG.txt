@@ -1,0 +1,200 @@
+# V169.00
+
+- Bỏ auto nhận kỳ ngộ bệ xảo 2
+- Thêm auto nhận kỳ ngộ Lão Khất
+- Thêm auto Q nội công 6 Vụ Phong Tầm Hiệp
+- Thêm auto chiến trường
+- Sửa auto boss 1 NMQ Phản Quân
+- Thêm auto boss 2, 3, 4 NMQ Phản Quân
+- Thêm auto bắt chim Q nội 5
+- Đưa mấy câu chat khi bị đánh lúc bắt cóc ra bên ngoài
+- Sửa auto cóc khi bị đánh chết thì trị thương lân cận không chạy ra điểm số 1
+
+# V167.08
+
+- Sửa lỗi không chat chữ full auto luyện công
+- Auto bắt cóc: Thêm chức năng dừng auto nếu bị đánh, chat thông tin người đánh, ghi log người đánh, chat gần random các câu hỏi như: ??!, có dụ gì?, wtf?...
+
+# V167.07
+
+- Sửa lỗi auto click khi tắt cái form mà chưa tắt auto
+- Auto bắt cóc: Thêm tùy chọn bắt xong về điểm hồi sinh hay không về
+- Sửa auto luyện nhóm: Kiểm tra lại trạng thái chat chữ Full!!!. Cho phép nhập yyy để tính ra số lượng người đang trong pt
+- Thêm auto mua đồ ở shops. Mục đích nâng cấp shops
+- Chia bảng auto thành 3 cột, do số lượng auto càng ngày càng nhiều
+
+# V167.06
+
+- Auto đi thiên thê lôi đài: Xuất chiêu đánh đối thủ ở nút 1,2,3,4,5 khuyến cáo nên sắp skill không văng. Nếu cao điểm hơn đối thủ sẽ AFK, thấp điểm hơn đối thủ sẽ đánh
+- Auto bắt cóc: Thêm cấu hình thời gian bắt
+
+# V167.05
+
+- Hỗ trợ auto do thám Nga Mi, Thần Thủy Cung
+- Auto vận tiêu fix lỗi vận ở Tô Châu
+- Sửa lỗi auto thợ săn
+
+# V167.04
+
+- Bổ sung auto do thám: Hỗ trợ phái QTĐ, CLC, ĐM, CB, CYV, TL, Minh Giáo
+- Bổ sung auto kỳ ngộ Thanh Phục - Long Trảo Thủ
+- Auto THTH thêm chức năng tự chọn boss đỏ tùy theo số khiêu chiến lệnh có. Sửa phần xác định thế lực đánh nhanh hơn cũ. Sửa phần xuất chiêu đánh boss chính xác hơn, không ôn thần lúc boss mất bá thể.
+
+# V167.03
+
+- Thu gọn menu công cụ lại
+- Bắt đầu bắt cóc lúc 14h03 cho chắc ăn vì nhiều trường hợp bắt sớm không có tiền
+- Auto vận tiêu hiện cả bạn đang offline để mời vận tiêu hoặc vận cùng
+- Auto click giải buff fix click lên 2 lần liên tục
+- Thêm auto mở luyện công và auto ké luyện công
+
+# V167.02
+
+- Công cụ tân thế giới: Thêm chức năng ẩn NPC theo tên NPC (lúc trước ẩn theo tọa độ), thêm chức năng đánh dấu tất cả các NPC trên bản đồ. Click vào nút đánh dấu lần nữa để hủy, nhấp vào mũi tên để di chuyển đến, chuột phải vào mũi tên để xóa nó đi.
+- Chức năng nhập tọa độ và di chuyển cho phép nhập 5 chữ số vì có trường hợp tọa độ -1000
+- Thêm công cụ hỗ trợ farm Thanh Hải
+
+# V167.01
+
+- Thêm công cụ farm tân thế giới
+- Auto bắt cóc sửa lại thời gian tự auto vào 14h - 22h
+
+# V167.00
+
+- Di chuyển vị trí nút công cụ lên bên phải thanh máu
+
+# V166.00
+
+- Sửa lỗi auto cóc tích hợp bày shops online: Cho xuống ngựa trước khi bày hàng nếu đang cưỡi ngựa
+
+# V165.01
+
+- Thêm auto tự chấp nhận Request (Mời tổ đội, mời đi thiên thê, yêu cầu chế tác nghề) và thông báo có request (giống như thông báo có kỳ ngộ)
+- Thêm auto thổi cóc và thông báo (giống như thông báo có kỳ ngộ)
+- Auto bắt cóc kết hợp với auto bày shops, ké tiêu
+- Auto bắt cóc thêm chức năng gọi tọa kỵ đặc biệt (Tam Dương Liên, Lạc Đà)
+- Auto THTH+Thế lực thêm chức năng gọi tọa kỵ đặc biệt (Tam Dương Liên, Lạc Đà), sửa tối ưu phần tìm đường: Khi đang tìm đường nếu tắt cái form đi thì thôi không tìm nữa thay vì cứ tìm hoài như trước.
+- Auto vận tiêu thêm chức năng mời bạn (chí hữu, hảo hữu, chú ý) cùng vận tiêu. Sửa để vận tiêu ngay cả khi bị phá tiêu, bị đánh chết. Thêm chức năng kick thành viên không đủ yêu cầu vận tiêu ra khỏi đội (offline hoặc ở map khác)
+
+# V165.00
+
+- Thêm auto click đồng đội để giải buff, sử dụng đi tâm ma, cấm địa...
+- Thêm công cụ mặc đồ đạc không thể tưởng
+
+# V164.00
+
+- Thêm tùy chọn tự xóa thư hệ thống ở auto vận tiêu
+- Đưa dữ liệu auto câu cá ra file riêng
+- Thêm auto thợ săn
+- Sửa lại auto trồng cây nuôi tằm thông minh hơn
+- Sửa lại auto chặt cây thông minh hơn
+- Sửa lại auto khoáng, dược, độc thông minh hơn
+
+# V163.03
+
+- Auto luyện nhóm: Hoàn trả lại việc chat gần khi mở auto
+- Auto cóc: Thần hành về điểm hồi sinh thì xuống ngựa
+
+# V163.02
+
+- Auto cóc bỏ phần sử dụng file ngoài do Gosu đang làm căng
+- Auto cóc cho dừng bắt khi tới 20h30 phút
+- Auto cóc điều chỉnh lại bắt xong thì thần hành về điểm hồi sinh đứng để hạn chế bị nhòm ngó
+- Auto cóc thiết lập lại thời gian chờ mỗi điểm xuống 1s để khỏi đứng lại tụi nó nhòm ngó
+
+# V163.01
+
+- Auto xóa thư hệ thống
+- Auto đào khoáng, chặt cây và gửi thư dự trữ khi đi NMQ Thủ Quân
+- Auto thế lực thêm tùy chọn kiểu đánh "vào xong out"
+
+# V160.06
+
+- Auto THTH bỏ ghi log thao tác của boss.
+- Thêm auto Dao Đài Đếm Hoa nhiệm vụ nội công 6.
+- Thêm auto nhanh tay lẹ mắt nhiệm vụ nội công 6.
+
+# V160.05
+
+- Sửa lỗi auto quét rương KHĐ
+- Sửa auto cóc không chuyển vị trí khi cóc đi ngang qua
+- Sửa auto cóc chỉ chuyển vị trí khi đứng trùng nhau quá 2 giây
+- Auto cóc khi tắt thì trả lại tiêu đề của cửa sổ mặc định
+
+# V160.04
+
+- Thêm công cụ hỗ trợ nhiệm vụ luyện nhãn lực Di Hoa Cung
+- Thêm auto nhiệm vụ Hoàng Gia Bí Cảnh nội công 6 ở Lạc Dương
+- Fix auto giải cứu cóc
+- Auto cóc: Không đứng trùng nhau khi bắt cóc xong
+
+# V160.03
+
+- Sửa lỗi công cụ điểm dừng chân
+
+# V160.02
+
+- Sửa công cụ điểm dừng chân
+- Auto cóc thêm tùy chọn đánh lại hoặc không
+- Auto thế lực bỏ chọn đối thủ, viết thêm phần kiểu đánh AFK và số lần đánh
+- Tích hợp auto Tung Hoành Tứ Hải
+- Tích hợp auto ra chiêu
+
+# v156.03
+
+- Thêm auto đi theo đối tượng: Rất thuận lợi khi làm Q kiểu đi theo NPC đến điểm nào đó.
+- Sửa đếm sai auto giải cứu cóc, tính toán đúng tọa độ cóc khi giải cứu
+- Auto thế lực: Dừng auto khi đánh quá 6 lần
+
+# v156.02
+
+- Sửa lỗi auto thế lực
+
+# v156.01
+
+- Sửa lỗi ngôn ngữ một số auto
+- Thêm auto chặt cây ở Thanh Hải: Thanh Trúc - Bồng Lai Đảo, Cây Bạch Dương - Vô Cực Đảo
+- Sửa lỗi auto cóc làm dis game khi cóc bị mất.
+- Tách data của auto trồng cây ra file riêng. Thêm auto trồng 5 loại cây của Di Hoa Cung. Thêm auto trồng Mã Đề, Măng Đông
+- Sửa auto dùng vật phẩm bị nhầm giữa nguyên liệu và nhiệm vụ
+- Thêm auto cấm địa: Auto đánh Boss 1 Nhạn Môn Quan - Phản Quân
+- Đổi tên auto quét MAP, checkbuff thành công cụ một nút
+- Sửa auto soi buff: Nếu không chọn đối tượng thì tự soi buff của mình
+- Thêm công cụ nhập tọa độ để di chuyển trong map (Áp dụng với một số map không cho nhập tọa độ ví dụ như tân thế giới, di hoa cung...)
+- Auto đi theo đối tượng: Áp dụng khi đi theo đối tượng lúc làm Q
+- Auto giải cứu cóc: Chỉ cứu cóc 100xu và 320xu. (Nằm ở tool 1 nút. Nhấp chạy và đi dạo trên map tiến tới những chỗ có cóc)
+
+# v154.02
+
+- Sửa auto soi buff
+- Thêm auto quét người chơi
+- Sửa auto bắt cóc chạy lung tung khi ôm được con cóc trên lưng
+
+# v154.01
+
+- Thêm auto soi buff đối tượng
+- Gộp Auto reset, quét cóc thành một auto check buff, quét map
+- Ẩn các nút auto chưa làm
+- Thêm chức năng ẩn auto đi để chụp hình gửi Gosu hỗ trợ
+- Thêm Auto cóc bắt dạo kiểu mới
+- Bỏ file text khỏi auto hạn chế việc hỏng auto khi cập nhật và giảm khối lượng Fix auto
+
+# v154.00
+
+- Client 154
+
+# v144.00
+
+- Client 144
+
+# v143.01
+
+- Client 143
+- Sửa auto cóc Đường Môn - Bán bên Mộc Vân Trang
+
+# v140.01
+
+- Bỏ auto mở rương khoái hoạt đảo (dùng auto sử dụng vật phẩm thay thế)
+- Sửa lỗi treo game khi bày hàng ở khu vực không được phép
+- Bỏ auto trị thương lân cận
+- Thêm auto xả bạc và farm hiệp ác

@@ -1,0 +1,1 @@
+-jar unluac 1.lua > xog.lua

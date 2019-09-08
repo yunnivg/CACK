@@ -1,0 +1,93 @@
+<?php
+
+set_time_limit(0);
+
+$encoded_dir = str_replace('\\', '/', __DIR__) . '/encoded_files';
+$decoded_dir = str_replace('\\', '/', __DIR__) . '/decoded_files';
+$my_dir = str_replace('\\', '/', __DIR__);
+
+if (!is_dir($encoded_dir)) {
+    die("Khong ton tai thu muc encoded_files\n");
+}
+
+if (!is_dir($decoded_dir)) {
+    die("Khong ton tai thu muc decoded_files\n");
+}
+
+// Đọc các file sẽ mã hóa
+$files = array();
+$tmp = scandir($decoded_dir);
+
+foreach ($tmp as $v) {
+	if ($v == '.' or $v == '..')
+		continue;
+    
+    if (is_file($decoded_dir . '/' . $v)) {
+        $files[] = $v;
+    }
+}
+
+// Xóa hết các file trong thư mục mã hóa
+$tmp = scandir($encoded_dir);
+
+foreach ($tmp as $v) {
+	if ($v == '.' or $v == '..')
+		continue;
+    
+    if (is_file($encoded_dir . '/' . $v)) {
+        $check = unlink($encoded_dir . '/' . $v);
+        
+        if (!$check) {
+            die('Khong thu xoa file encoded_files/' . $v . "\n");
+        }
+    }
+}
+
+// Không có file nào để mã hóa
+if (empty($files)) {
+    die("Khong co file nao de ma hoa\n");
+}
+
+// Bắt đầu mã hóa
+foreach ($files as $file) {
+    $decode_file = $decoded_dir . '/' . $file;
+    $encode_file = $encoded_dir . '/' . $file;
+    
+    if (is_file($my_dir . '/encode.lua')) {
+        unlink($my_dir . '/encode.lua');
+    }
+    
+    if (is_file($my_dir . '/decode.lua')) {
+        unlink($my_dir . '/decode.lua');
+    }
+    
+    $check = file_put_contents($my_dir . '/decode.lua', file_get_contents($decode_file), LOCK_EX);
+    
+    if ($check === false) {
+        die("Khong the ghi file decode.lua\n");
+    }
+    
+    $check = shell_exec('"C:\Program Files (x86)\Lua\5.1\luac.exe" -o "encode.lua" "decode.lua"');
+    
+    if (!empty($check)) {
+        die ("Khong the ma hoa file " . $file . "\n");
+    }
+    
+    $check = rename($my_dir . '/encode.lua', $encode_file);
+    
+    if (!$check) {
+        die ("Khong the chuyen doi file " . $file . "\n");
+    } else {
+        echo ("Chuyen: " . $file . "\n");
+    }
+}
+
+if (is_file($my_dir . '/encode.lua')) {
+    unlink($my_dir . '/encode.lua');
+}
+
+if (is_file($my_dir . '/decode.lua')) {
+    unlink($my_dir . '/decode.lua');
+}
+
+echo ("Xong\n");
